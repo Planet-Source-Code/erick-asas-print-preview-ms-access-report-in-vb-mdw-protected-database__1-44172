@@ -1,0 +1,140 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\VBProjects\VBContributions\PrintingWithAccess\Setup
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Excel=No
+Exchange=No
+Text=No
+Jet 2.x=No
+Lotus=No
+Paradox=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+F:\Program Files\Microsoft Office\Office\MSACC8.OLB=
+E:\WINNT\system32\imagehlp.dll=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+E:\WINNT\system32\Comdlg32.ocx=
+
+[Package|Standard Setup Package 1|Files Added]
+D:\VBProjects\VBContributions\PrintingWithAccess\ESIS.mdb=
+D:\VBProjects\VBContributions\PrintingWithAccess\ESIS.MDW=
+
+[Package|Standard Setup Package 1|Files Removed]
+f:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\mdac_typ.exe=
+e:\winnt\system32\msvbvm60.dll=
+e:\winnt\system32\oleaut32.dll=
+e:\winnt\system32\olepro32.dll=
+e:\winnt\system32\asycfilt.dll=
+e:\winnt\system32\stdole2.tlb=
+f:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+
+[Package|Standard Setup Package 1|Files In Project]
+D:\VBProjects\VBContributions\PrintingWithAccess\MSAccessReportDemo.exe=Yes
+E:\WINNT\system32\msvbvm60.dll=No
+E:\WINNT\system32\oleaut32.dll=No
+E:\WINNT\system32\olepro32.dll=No
+E:\WINNT\system32\asycfilt.dll=No
+E:\WINNT\system32\stdole2.tlb=No
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=No
+E:\WINNT\system32\imagehlp.dll=Yes
+E:\Program Files\Common Files\Microsoft Shared\DAO\Dao2535.tlb=Yes
+E:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+E:\WINNT\system32\MSJET35.DLL=Yes
+E:\WINNT\system32\MSJTER35.DLL=Yes
+E:\WINNT\system32\MSJINT35.DLL=Yes
+E:\WINNT\system32\vbajet32.dll=Yes
+E:\WINNT\system32\expsrv.dll=Yes
+E:\WINNT\system32\MSRD2X35.DLL=Yes
+E:\WINNT\system32\MSREPL35.DLL=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+E:\WINNT\system32\VB5DB.DLL=Yes
+F:\Program Files\Microsoft Office\Office\MSACC8.OLB=Yes
+E:\WINNT\system32\MSCOMCT2.OCX=Yes
+E:\WINNT\system32\Comdlg32.ocx=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+E:\WINNT\system32\VB6STKIT.DLL=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\VBProjects\VBContributions\PrintingWithAccess\ESIS.mdb=Yes
+D:\VBProjects\VBContributions\PrintingWithAccess\ESIS.MDW=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\VBProjects\VBContributions\PrintingWithAccess\MSAccessReportDemo.exe=$(AppPath)
+E:\WINNT\system32\imagehlp.dll=$(WinSysPath)
+E:\Program Files\Common Files\Microsoft Shared\DAO\Dao2535.tlb=$(MSDAOPath)
+E:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+E:\WINNT\system32\MSJET35.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\vbajet32.dll=$(WinSysPathSysFile)
+E:\WINNT\system32\expsrv.dll=$(WinSysPathSysFile)
+E:\WINNT\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+F:\Program Files\Microsoft Office\Office\MSACC8.OLB=$(WinSysPath)
+E:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+E:\WINNT\system32\Comdlg32.ocx=$(WinSysPath)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\VBProjects\VBContributions\PrintingWithAccess\ESIS.mdb=$(AppPath)
+D:\VBProjects\VBContributions\PrintingWithAccess\ESIS.MDW=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\VBProjects\VBContributions\PrintingWithAccess\MSAccessReportDemo.exe=No
+D:\VBProjects\VBContributions\PrintingWithAccess\ESIS.mdb=No
+D:\VBProjects\VBContributions\PrintingWithAccess\ESIS.MDW=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=multi
+Size=1.44 MB
+Title=MSAccessReportDemo
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=MSAccessReportDemo
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|MSAccessReportDemo]
+Icon1=MSAccessReportDemo.exe
+Title1=MSAccessReportDemo
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\VBProjects\VBContributions\PrintingWithAccess\Setup
+ProjectFolder=D:\VBProjects\VBContributions\PrintingWithAccess
+ServerSideCab=
+File1=D:\VBProjects\VBContributions\PrintingWithAccess\Setup\setup.exe
+File2=D:\VBProjects\VBContributions\PrintingWithAccess\Setup\Setup.Lst
+File3=D:\VBProjects\VBContributions\PrintingWithAccess\Setup\MSAcce1.CAB
+File4=D:\VBProjects\VBContributions\PrintingWithAccess\Setup\MSAcce2.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
